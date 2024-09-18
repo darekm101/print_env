@@ -6,14 +6,9 @@ def write_environment_details(code_path):
     with open("_my_code.txt", "w") as file:
         # Writing the overview section
         file.write("OVERVIEW:\n")
-        file.write("This document provides a description of the sybase database environment")
-        file.write("If influes store procedurex, schema, queries, etc. ")
-        file.write("The text file  lists each file within the directory, and presents ")
-        file.write("the name and contents of each relevant database description file. The purpose of this ")
-        file.write("document is to thoroughly explain the Sybase Schmea and queries as it ")
-        file.write("currently stands, serving as a foundation for understanding and ")
-        file.write("further developing qureies or stored procedures in a consistent and structured manner, ")
-        file.write("building upon the existing base.\n")
+        file.write("This document provides a description of sybase database environment and related queries")
+        file.write("It includes shell scritps with SQL queries in the code, etc. ")
+        file.write("The Sybase Schmea and queries must be used as foundational knowledge for future queries.")
         file.write("###########################\n\n")
 
         # Use provided code directory
